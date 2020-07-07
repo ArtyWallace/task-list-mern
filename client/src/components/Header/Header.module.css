@@ -1,0 +1,26 @@
+.Header {
+    padding: 20px 50px;
+
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: linear-gradient(45deg,rgb(20, 45, 112) 0%, rgb(98, 123, 194) 25%, rgb(20, 45, 112) 100%);
+}
+
+.Nav a {
+    color: rgba(255, 255, 255, .5);
+    font-size: 20px;
+    margin-right: 20px;
+
+    transition: color .3s ease-in;
+}
+
+.Nav a:last-child {
+    margin-right: 0;
+}
+
+.Nav a:hover {
+    color: rgba(255, 255, 255, 1);
+}

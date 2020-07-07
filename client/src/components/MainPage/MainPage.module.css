@@ -1,0 +1,37 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.MainPage h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 100px auto;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.content>div>div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .15);
+    border-radius: 35px;
+}

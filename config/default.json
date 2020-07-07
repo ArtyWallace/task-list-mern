@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "arty wallace mern",
+    "mongoUri": "mongodb+srv://artem:artem1234@cluster0-mf55l.azure.mongodb.net/taskapp?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
